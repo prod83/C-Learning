@@ -1,18 +1,15 @@
 #include<stdio.h>
+#include<math.h>
 // find sin function
-//enter first value that represents the value of the adjacent side
-//enter second value that represents the value of the opposide side
-//C will turn values to doubles then divide adjacent by opposite a
-
+//
 int main(void)
 { 
- double adjacent;
- double opposite;
- printf("Enter adjacent side value:");
- scanf("%lf", &adjacent);
- printf("Enter opposite side value:");
- scanf("%lf", &opposite);
-printf("Sin is : %lf \n\n", adjacent/opposite);
+ double value;
+
+ printf("Enter value between 0 and 1:");
+ scanf("%lf", &value);
+ printf("sin(%lf) is %lf\n", x, sin(x));
+
 return 0;
 }
 
