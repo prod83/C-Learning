@@ -8,7 +8,7 @@ int main(void)
 
  printf("Enter value between 0 and 1:");
  scanf("%lf", &value);
- printf("sin(%lf) is %lf\n", x, sin(x));
+ printf("sin(%lf) is %lf\n", value, sin(value));
 
 return 0;
 }
